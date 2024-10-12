@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylized GitHub Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+            font-family: 'Arial', sans-serif;
+            color: white;
+        }
+        h1 {
+            font-size: 4rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5rem;
+            animation: fadeIn 3s ease-in-out;
+        }
+        p {
+            font-size: 1.5rem;
+            text-transform: capitalize;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: scale(0.9); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Hello World!</h1>
+        <p>This is your GitHub Page</p>
+    </div>
+</body>
+</html>
